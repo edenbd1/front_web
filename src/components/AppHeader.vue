@@ -40,7 +40,7 @@ function handleLogout() {
   // Force a small delay to ensure state updates
   setTimeout(() => {
     // Redirect to home page with absolute URL
-    window.location.href = 'http://localhost:5173/';
+    window.location.href = 'https://contactmanagerfin.netlify.app/';
   }, 100);
 }
 
